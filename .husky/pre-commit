@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo "pre-commit in subrepo-2"
-pwd
+sh ../scripts/auto-push
