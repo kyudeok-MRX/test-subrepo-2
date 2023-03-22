@@ -1,3 +1,3 @@
 import { subtract } from "lodash-es";
-console.log(subtract(100, 10));
+console.log(subtract(100, 101));
 export default subtract;
