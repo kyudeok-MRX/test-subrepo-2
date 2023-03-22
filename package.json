@@ -6,6 +6,7 @@
   "scripts": {
     "prepare": "husky install",
     "prepush": "node ../scripts/submodule-post-commit",
+    "postpush": "node -e \"console.log('Hello')\"",
     "test": "echo \"subrepo-2 Test\""
   },
   "keywords": [],
