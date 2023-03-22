@@ -1,4 +1,4 @@
-import { subtract, camelCase } from "lodash-es";
+import { subtract, camelCase, snakeCase } from "lodash-es";
 
-export { camelCase };
+export { camelCase, snakeCase };
 export default subtract;

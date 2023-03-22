@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
 
+echo "post-commit in subrepo-2"
 pwd
