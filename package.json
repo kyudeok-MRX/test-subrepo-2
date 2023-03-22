@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "prepush": "node ../scripts/submodule-post-commit",
-    "postpush": "node -e \"console.log('Hello')\"",
+    "push": "git push && cd ../ && git push",
+    "prepush": "node ../scripts/submodule-pre-push",
     "test": "echo \"subrepo-2 Test\""
   },
   "keywords": [],
